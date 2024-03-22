@@ -103,7 +103,7 @@ iface.launch()
 ## Additional Notes
 
 - The code is divided into several sections, including installation instructions, imports, model initialization, and the main function.
-- The ``groq_api_key`` variable is used to store your Groq API key. You can find your API key on the Groq website.
+- Ensure you have a valid ``GROQ_API_KEY`` to access the Groq API.
 - The ``gradio`` library is used to create an interface for the chatbot.
 - The share link provided expires in 72 hours. For permanent hosting and GPU upgrades, consider deploying to Spaces using ``gradio deploy`` from Terminal.
 ## Acknowledgements
